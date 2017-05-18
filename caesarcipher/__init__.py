@@ -1,9 +1,9 @@
 try:
-    from caesarcipher.caesarcipher import CaesarCipher
-    from caesarcipher.caesarcipher import CaesarCipherError
+    from .caesarcipher.caesarcipher import CaesarCipher
+    from .caesarcipher.caesarcipher import CaesarCipherError
 except ImportError:
-    from caesarcipher import CaesarCipher
-    from caesarcipher import CaesarCipherError
+    from .caesarcipher import CaesarCipher
+    from .caesarcipher import CaesarCipherError
 
 __title__ = 'caesarcipher'
 __version__ = '1.0'

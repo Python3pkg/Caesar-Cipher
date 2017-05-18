@@ -1,8 +1,8 @@
 import logging
 import argparse
 
-from .caesarcipher import CaesarCipher
-from .caesarcipher import CaesarCipherError
+from caesarcipher import CaesarCipher
+from caesarcipher import CaesarCipherError
 
 # Parser configuration
 parser = argparse.ArgumentParser(description="Caesar Cipher - encode, decode "
